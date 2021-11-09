@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "click",
-        "pansdas",
+        "pandas",
         "matplotlib"
     ],
     entry_points={

@@ -3,6 +3,9 @@ import pandas as pd
 import textwrap
 import matplotlib.font_manager
 
+def calc_char_width(isize, fsize):
+    return (int((isize*.9))/fsize)*2
+
 def get_system_fonts():
     fonts = matplotlib.font_manager.findSystemFonts()
     return fonts
